@@ -1,64 +1,12 @@
-<testsuites name="jest tests" tests="4" failures="4" time="1.603">
-  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2023-04-09T14:38:09" time="1.603" tests="4">
-    <testcase classname=" Initial articles render correctly" name=" Initial articles render correctly" time="0.017">
-      <failure>Error: expect(received).toHaveLength(expected)
-
-Expected length: 7
-Received length: 1
-Received array:  [&lt;tr data-testid=&quot;article&quot;&gt;&lt;td data-testid=&quot;article-title&quot;&gt;Article 1 title&lt;/td&gt;&lt;td data-testid=&quot;article-upvotes&quot;&gt;Article 1 title&lt;/td&gt;&lt;td data-testid=&quot;article-date&quot;&gt;Article 1 title&lt;/td&gt;&lt;/tr&gt;]
-    at expectArticles (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/src/App.test.js:83:20)
-    at Object.&lt;anonymous&gt; (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/src/App.test.js:97:3)
-    at Object.asyncJestTest (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+<testsuites name="jest tests" tests="4" failures="0" time="0.811">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2023-04-10T01:13:23" time="0.811" tests="4">
+    <testcase classname=" Initial articles render correctly" name=" Initial articles render correctly" time="0.018">
     </testcase>
-    <testcase classname=" Clicking on top renders expected articles" name=" Clicking on top renders expected articles" time="0.004">
-      <failure>Error: expect(received).toHaveLength(expected)
-
-Expected length: 7
-Received length: 1
-Received array:  [&lt;tr data-testid=&quot;article&quot;&gt;&lt;td data-testid=&quot;article-title&quot;&gt;Article 1 title&lt;/td&gt;&lt;td data-testid=&quot;article-upvotes&quot;&gt;Article 1 title&lt;/td&gt;&lt;td data-testid=&quot;article-date&quot;&gt;Article 1 title&lt;/td&gt;&lt;/tr&gt;]
-    at expectArticles (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/src/App.test.js:83:20)
-    at Object.&lt;anonymous&gt; (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/src/App.test.js:107:3)
-    at Object.asyncJestTest (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    <testcase classname=" Clicking on top renders expected articles" name=" Clicking on top renders expected articles" time="0.009">
     </testcase>
-    <testcase classname=" Clicking on newest renders expected articles" name=" Clicking on newest renders expected articles" time="0.002">
-      <failure>Error: expect(received).toHaveLength(expected)
-
-Expected length: 7
-Received length: 1
-Received array:  [&lt;tr data-testid=&quot;article&quot;&gt;&lt;td data-testid=&quot;article-title&quot;&gt;Article 1 title&lt;/td&gt;&lt;td data-testid=&quot;article-upvotes&quot;&gt;Article 1 title&lt;/td&gt;&lt;td data-testid=&quot;article-date&quot;&gt;Article 1 title&lt;/td&gt;&lt;/tr&gt;]
-    at expectArticles (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/src/App.test.js:83:20)
-    at Object.&lt;anonymous&gt; (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/src/App.test.js:117:3)
-    at Object.asyncJestTest (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    <testcase classname=" Clicking on newest renders expected articles" name=" Clicking on newest renders expected articles" time="0.005">
     </testcase>
-    <testcase classname=" Sequence of navigation clicks renders expected artices" name=" Sequence of navigation clicks renders expected artices" time="0.002">
-      <failure>Error: expect(received).toHaveLength(expected)
-
-Expected length: 7
-Received length: 1
-Received array:  [&lt;tr data-testid=&quot;article&quot;&gt;&lt;td data-testid=&quot;article-title&quot;&gt;Article 1 title&lt;/td&gt;&lt;td data-testid=&quot;article-upvotes&quot;&gt;Article 1 title&lt;/td&gt;&lt;td data-testid=&quot;article-date&quot;&gt;Article 1 title&lt;/td&gt;&lt;/tr&gt;]
-    at expectArticles (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/src/App.test.js:83:20)
-    at Object.&lt;anonymous&gt; (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/src/App.test.js:132:5)
-    at Object.asyncJestTest (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /Users/stevengong/Documents/tmp/temp/tmp11/react-2/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    <testcase classname=" Sequence of navigation clicks renders expected artices" name=" Sequence of navigation clicks renders expected artices" time="0.012">
     </testcase>
   </testsuite>
 </testsuites>
